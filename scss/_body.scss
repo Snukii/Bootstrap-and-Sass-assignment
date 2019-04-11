@@ -1,0 +1,7 @@
+$dark: #343A40;
+
+$background: lighten($dark, 10%);
+
+body {
+    background-color: $background;
+}

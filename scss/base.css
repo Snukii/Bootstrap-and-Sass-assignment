@@ -1,0 +1,91 @@
+body {
+  background-color: #4b545c;
+}
+
+.cards {
+  background-size: cover;
+  background-image: url("https://picsum.photos/1280/720?image=767&blur&gravity=south");
+}
+
+.cards .card {
+  border: 0px;
+  margin: 150px auto 150px auto;
+  height: 368px;
+}
+
+.cards .card .btn {
+  width: 100%;
+}
+
+.cards .card .card-body .card-text {
+  text-align: center;
+}
+
+i {
+  float: right;
+  padding-top: 4px;
+}
+
+.contact-form {
+  background: #fff;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 80%;
+}
+
+.contact-form img {
+  border-radius: 6rem;
+  width: 11%;
+  margin-top: -3%;
+  -webkit-transform: rotate(29deg);
+          transform: rotate(29deg);
+}
+
+.contact-form form {
+  padding: 14%;
+}
+
+.contact-form form .row {
+  margin-bottom: -7%;
+}
+
+.contact-form h3 {
+  margin-bottom: 8%;
+  margin-top: -10%;
+  text-align: center;
+  color: #007BFF;
+}
+
+.contact-form .btnContact {
+  width: 50%;
+  border: none;
+  border-radius: 1rem;
+  padding: 1.5%;
+  background: #007BFF;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+}
+
+.contact-form .btnContact:hover {
+  background: #006fe6;
+}
+
+.contact-form .form-control {
+  border-radius: 1rem;
+}
+
+.contact-image {
+  text-align: center;
+}
+
+.btnContactSubmit {
+  width: 50%;
+  border-radius: 1rem;
+  padding: 1.5%;
+  color: #fff;
+  background-color: #007BFF;
+  border: none;
+  cursor: pointer;
+}
+/*# sourceMappingURL=base.css.map */

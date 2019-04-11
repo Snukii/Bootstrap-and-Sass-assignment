@@ -1,0 +1,10 @@
+@mixin iconposition($direction) {
+
+    float: $direction;
+    padding-top: 4px;
+
+}
+
+i {
+    @include iconposition(right)
+}

@@ -1,0 +1,33 @@
+$margin: 150px;
+$align-text: center;
+$bg-img: "https://picsum.photos/1280/720?image=767&blur&gravity=south";
+
+@mixin bg($img) {
+    background-size: cover;
+    background-image: url($img)
+}
+
+
+.cards {
+
+    @include bg($bg-img);
+
+    .card {
+
+        border: 0px;
+
+        margin: $margin auto $margin auto;
+
+        height: 368px;
+
+        .btn {
+            width: 100%;
+        }
+
+        .card-body {
+            .card-text {
+                text-align: $align-text;
+            }
+        }
+    }
+}
